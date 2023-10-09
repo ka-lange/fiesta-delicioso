@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600&display=swap');
+
+.font-slab{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+}
+.home-cover{
+    background: url("./assets/pexels-anthony-leong-2092897.jpg");
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
