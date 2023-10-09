@@ -13,3 +13,11 @@
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
     background-size: cover;
 }
+.food-banner{
+    background: url("./assets/food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+}
