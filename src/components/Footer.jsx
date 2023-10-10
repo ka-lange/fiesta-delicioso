@@ -7,26 +7,26 @@ function Footer() {
     <div className="Header">
         <div className="bg-red">
             <img src={ BottomBanner }/>
-            <section className="h-40 text-pink">
-                <div className="grid grid-cols-3 grid-rows-1 gap-4">
-                    <div className="text-center">
+            <section className="my-10 text-pink">
+                <div className="md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4">
+                    <div className="text-center my-4">
                         <h6 className="font-slab">HOURS</h6>
                         <p>Mon-Thurs: 11am - 10pm</p>
                         <p>Fri-Sun: 10am - 11pm</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center my-4">
                         <h6 className="font-slab">LOCATION</h6>
                         <p>123 St Address</p>
                         <p>City, State 12345</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center my-4">
                         <h6 className="font-slab">CONTACT</h6>
                         <p>example@email.com</p>
                         <p>(123) 867-5309</p>
                     </div>
                 </div>
             </section>
-            <div className="flex flex-col items-center">
+            <section className="flex flex-col items-center">
                 <p className='text-sky'>Design by Karissa Lange</p>
                 <div className='flex text-sky'>
                     <a href="https://karissa-lange.netlify.app/" target="_blank" className='m-2' title="Karissa Lange Portfolio">
@@ -46,7 +46,7 @@ function Footer() {
                         </svg>
                     </a>
                 </div>
-            </div>
+            </section>
         </div>
         
     </div>
