@@ -25,9 +25,10 @@ function About() {
                 <div><img src={ChefPic}/></div>
             </div>
         </section>
+        <hr className='w-11/12 mx-auto text-teal'></hr>
         <section className='my-20 mx-4 flex flex-col justify-center items-center'>
             <h2 className='text-2xl text-center'>It's always a party in our kitchen! See our food menu here:</h2>
-            <a href="/menu"><button className="bg-teal text-sky w-40 h-10 mt-10" type="button">SEE OUR MENU</button></a>
+            <a href="/menu"><button className="bg-teal text-sky w-40 h-10 mt-10 hover:bg-sky hover:text-teal hover:border-4" type="button">SEE OUR MENU</button></a>
         </section>
        <Footer />
     </div>

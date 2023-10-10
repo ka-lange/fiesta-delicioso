@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import CakePng from "../assets/cake.png"
 import TacoPng from "../assets/taco.png"
 import SaladPng from "../assets/salad.png"
-import FajitasPng from "../assets/fajitas.png"
+import ChipsPng from "../assets/chips.png"
 
 
 
@@ -17,8 +17,8 @@ function Menu() {
         <Banner />
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 gap-4 m-2">
             <section className="mt-10 border">
-                <div className="h-24 bg-red flex justify-center items-center">
-                    <img className='w-10 m-4' src={TacoPng} alt="cake" />
+                <div className="h-24 bg-red flex items-center">
+                    <img className='w-10 m-4' src={ChipsPng} alt="chips icon" />
                     <h2 className="font-bold font-slab text-3xl text-pink">Starters</h2>
                 </div>
                 <MenuItem 
@@ -35,8 +35,8 @@ function Menu() {
                     price="$11" />
             </section>
             <section className="row-start-2 md:row-start-1 mt-10 border">
-                <div className="h-24 bg-red flex justify-center items-center">
-                    <img className='w-10 m-4' src={SaladPng} alt="cake" />
+                <div className="h-24 bg-red flex items-center">
+                    <img className='w-10 m-4' src={SaladPng} alt="salad icon" />
                     <h2 className="font-bold font-slab text-3xl text-pink">Soups & Salads</h2>
                 </div>
                 <MenuItem 
@@ -53,8 +53,8 @@ function Menu() {
                     price="$13" />
             </section>
             <section className="md:row-start-2 row-start-3 mt-10 border">
-                <div className="h-24 bg-red flex justify-center items-center">
-                    <img className='w-10 m-4' src={FajitasPng} alt="cake" />
+                <div className="h-24 bg-red flex items-center">
+                    <img className='w-10 m-4' src={TacoPng} alt="taco icon" />
                     <h2 className="font-bold font-slab text-3xl text-pink">Mains</h2>
                 </div>
                 <MenuItem 
@@ -71,8 +71,8 @@ function Menu() {
                     price="$16" />
             </section>
             <section className="md:row-start-2 row-start-4 mt-10 border">
-                <div className="h-24 bg-red flex justify-center items-center">
-                    <img className='w-10 m-4' src={CakePng} alt="cake" />
+                <div className="h-24 bg-red flex items-center">
+                    <img className='w-10 m-4' src={CakePng} alt="cake icon" />
                     <h2 className="font-bold font-slab text-3xl text-pink">Desserts</h2>
                 </div>
                 <MenuItem 
@@ -89,10 +89,9 @@ function Menu() {
                     price="$12" />
             </section>
         </div>
-        
         <section className='my-20 mx-4 flex flex-col justify-center items-center'>
             <h2 className='text-2xl text-center'>Wonder how our colorful menu was curated? Visit our About page to learn more!</h2>
-            <a href="/about"><button className="bg-red text-sky w-40 h-10 mt-10" type="button">LEARN MORE</button></a>
+            <a href="/about"><button className="bg-teal text-sky w-40 h-10 mt-10 hover:bg-sky hover:text-teal hover:border-4" type="button">LEARN MORE</button></a>
         </section>
         <Footer />
     </div>
